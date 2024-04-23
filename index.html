@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+      <link rel="icon" href="favicon.ico">
+      <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+      <script src="./javascripts/jquery-3.7.1.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="javascripts/java-script.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+<hr>
+    <table> <!-- таблица -->
+      <thead> <!-- table head -->
+       <tr> <!-- container for table row -->
+          <th>Неделя</th> 
+          <th>Название</th> 
+          <th>Дата</th> 
+          <th>Предмет</th> 
+          <th>Тип</th> 
+          <th>+</th> 
+       </tr> 
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td> 
+          <td>Верстаем форму</td>
+          <td>Апрель 23, 2024</td>
+          <td><span class="sp_red"> Tehnology </span></td>
+          <td><span class="sp_green"> Workshop </span></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form id="new_row" action="">
+      <input type="text" name="week" value="" placeholder="Week">
+      <input type="text" name="name_0f" value="" placeholder="Naming">
+      <input type="text" name="date" value="" placeholder="Date">
+      <select name="disk" id="">
+        <option value="nothing">1Object</option>
+        <option value="nothing">2Object</option>
+        <option value="nothing">3Object</option>
+      </select>
+      <select name="type" id="">
+        <option value="atypical">1Type</option>
+        <option value="atypical">2Type</option>
+        <option value="atypical">3Type</option>
+      </select>
+      <button type="button" name="button">+</button>
+    </form>
+
+  </body>
+</html>
